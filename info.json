@@ -1,11 +1,11 @@
 {
-	"name": "FireArmor",
+	"name": "CarRemote",
 	"version": "0.1.0",
-	"title": "Fire Armor",
+	"title": "Car Remote",
 	"author": "Pirate",
 	"contact": "",
 	"homepage": "",
 	"factorio_version": "0.17",
 	"dependencies": ["base >= 0.17"],
-	"description": "Armor that leaves a fire trail"
+	"description": "Allows remote control of the car"
 }
