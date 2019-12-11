@@ -1,6 +1,6 @@
 --item.lua
 
-local carRemote = table.deepcopy(data.raw.equipment_remote["discharge-defense-equipment"])
+local carRemote = table.deepcopy(data.raw.capsule["discharge-defense-remote"])
 
 carRemote.name = "car-remote"
 carRemote.icons= {
@@ -11,7 +11,7 @@ carRemote.icons= {
 }
 
 
-local recipe = table.deepcopy(data.raw.recipe["remote"])
+local recipe = table.deepcopy(data.raw.recipe["discharge-defense-remote"])
 recipe.enabled = true
 recipe.name = "car-remote"
 recipe.ingredients = {{"electronic-circuit", 50},{"advanced-circuit", 20}}
