@@ -1,6 +1,6 @@
 --item.lua
 
-local carRemote = table.deepcopy(data.raw.remote)
+local carRemote = table.deepcopy(data.raw.equipment_remote["discharge-defense-equipment"])
 
 carRemote.name = "car-remote"
 carRemote.icons= {
